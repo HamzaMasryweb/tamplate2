@@ -1,0 +1,76 @@
+.sprites {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.sprite-item {
+    padding: 10px;
+    width: 200px;
+    border-right: 2px solid rgba(180, 77, 4, 0.212);
+    text-align: center;
+    margin-bottom: 10px;
+}
+.sprite-item:last-child {border: 0;}
+.sprite-item .sprite-title h4 {font-size: 15px;margin: 10px 0;}
+.sprite-item .sprite-title p {font-size: 13px;color: rgb(122, 120, 120);}
+.sprite-icon {height: 60px;background-image: url(../images/service-icon.png);background-repeat: no-repeat;}
+.sprite-icon-1 {
+    background-position: center 5px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.sprite-item:hover .sprite-icon-1 {background-position: center -86px;}
+.sprite-icon-2 {
+    background-position: center -180px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.sprite-item:hover .sprite-icon-2 {background-position: center -273px;}
+.sprite-icon-3 {
+    background-position: center -366px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.sprite-item:hover .sprite-icon-3 {background-position: center -455px;}
+.sprite-icon-4 {
+    background-position: center -549px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.sprite-item:hover .sprite-icon-4 {background-position: center -639px;}
+.sprite-icon-5 {
+    background-position: center -734px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.sprite-item:hover .sprite-icon-5 {background-position: center -826px;}
+hr {border: 0;border-bottom: 2px solid rgba(180, 77, 4, 0.212);}
+@media screen and (max-width:500px) {
+    .sprite-item:last-child {
+        border-right: 2px solid rgba(180, 77, 4, 0.212) !important;
+    }
+}
+@media screen and (max-width:300px) {
+    .sprites {
+        margin-top: 20px !important;
+        margin-bottom: 10px !important;
+    }
+}
